@@ -1,0 +1,4 @@
+# Ignore some things!
+*.war
+target
+grails-app/conf/DataSource.groovy
