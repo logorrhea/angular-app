@@ -3,9 +3,10 @@ package eiu
 class Todo {
 
   boolean completed = false
-  String title
+  int ordering
+  String text
 
   static constraints = {
-    title nullable: false
+    text nullable: false, empty: false
   }
 }
